@@ -1,0 +1,181 @@
+/* @font-face {
+  font-family: 'MyNewFont';
+  src: url('../lib/font/ALTGOT2N_1font.ttf');
+} */
+ body,h1,h2,h3,h4,p,li,span,dd{
+  font:Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+}
+.lf{
+  float: left;
+}
+.rt{
+  float:right;
+}
+.topLine{
+  display:block;
+  width:100%;
+  height:0.055rem;
+  margin-top:2.48rem;
+}
+.proService, .news {
+  padding:0.96rem 1.4rem 0;
+  background: #fff;
+}
+.proService h1, .news h1{
+  font-size: 0.6944rem;
+  text-align: center;
+  color: #04447c;
+  margin: 0 auto;
+}
+.proService .proLines, .news .proLines{
+  position: relative;
+  border-top:2px solid #04447c;
+  width: 13%;
+  margin: 0 auto;
+}
+.news .proLines{
+  width: 13%;
+}
+.proService>p,.news>p{
+  font-family: 'alternategothic2_btregular';
+  font-size: 0.7028rem;
+  color: #cbcbcb;
+  text-align: center;
+}
+.proService .proList {
+  display: flex;
+  align-items: center;
+  padding-top: 0.74rem;
+}
+.proService .proList .item{
+  width: 33.3%;
+}
+.proService .proList .item dt{
+  width: 1.9rem;
+  height: 1.8rem;
+  vertical-align: middle;
+  margin: 0 auto 0.9rem;
+}
+.proService .proList .item dt img{
+  width: 100%;
+  height: 100%;
+
+}
+.proService .proList .item dd{
+  font-size:0.5022rem;
+  color:#4a4a4a;
+  text-align: center;
+}
+.proService .proList .item dd.eName{
+  font-size: 0.2506rem;
+  color:#cbcbcb;
+  font-family: 'alternategothic2_btregular';
+  font-weight:normal;
+}
+.proService .proList .item .blue{
+  color:#04447c;
+}
+ul{
+  border-top: 2px solid #0a4379;
+  margin-top: 0.6rem;
+}
+ul .lineNews{
+  position: relative;
+  border-top: 2px solid #8fc11f;
+  width: 31%;
+  top: -2px;
+  z-index: 1;
+}
+ul li{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #cac5c5;
+}
+ul li:nth-child(1){
+  padding: 0.5rem 0;
+  border-top: 1px solid #cac5c5;
+}
+ul li .imgList{
+  width: 3.06rem;
+  height: 2.08rem;
+}
+ul li .imgList img{
+  width:100%;
+  height:100%;
+}
+ul li .contList{
+  padding: 0.12rem 0 0 0;
+  width: 8.3rem;
+}
+ul li .contList h3{
+  color:#353535;
+  font-size: 0.5rem;
+  line-height:0.6rem;
+  font-weight: normal;
+  text-align: justify;
+}
+ul li .contList p{
+  text-align: right;
+  font-size:0.4166rem;
+  color:#04447c;
+}
+.videoCenter {
+  height: 9.4rem;
+  padding:1rem 1.4rem 0;
+  background: #fff;
+}
+.videoCenter .videoWz{
+  font-size:0.5484rem;
+  color:#4a4a4a;
+}
+.videoWz p{
+  text-align: justify;
+}
+.videoCenter span{
+  color:#04447c;
+  position: relative;
+  top: -0.85rem;
+  right: 0;
+}
+.videoCenter .videoBox {
+  width: 100%;
+  height: 6.78rem;
+  margin-bottom: 0.5rem;
+}
+.videoCenter .videoBox video {
+  width: 100%;
+}
+
+.itemInfo{
+  padding: 0 0;
+  display: none;
+}
+.imgIcon {
+  display: block;
+  width:0.56rem;
+  margin:0 auto;
+}
+.itemInfo div img{
+  width: 100%;
+  height:100%;
+}
+.itemInfo p{
+  color:#979797;
+  font-size:0.6rem;
+  text-align: left;
+}
+.pblock{
+  display:block;
+}
+.proList dl{
+  padding-bottom: 0.4rem;
+  position: relative;
+}
+.imgIcon img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0.56rem;
+  margin:0 auto 1.04rem;
+}

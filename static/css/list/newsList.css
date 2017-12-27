@@ -1,0 +1,135 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-15 08:36:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-27 09:35:12
+*/
+div,h1,h2,h3,h4,h5,h6,p{
+
+}
+li{
+    list-style:none
+}
+.main>img:first-child{
+    margin-top:2.5rem;
+    height:0.1rem;
+}
+.main>img{
+    display:block;
+    width:100%;
+}
+.newBanner{
+    margin-bottom:1.18rem;
+    height:5rem;
+}
+
+.content{
+    box-sizing: border-box;
+    padding:0 1.38rem;
+}
+section>div:first-child{
+    box-sizing:border-box;
+    padding-bottom:0.48rem;
+    margin-bottom:1.12rem;
+    border-bottom:1px dashed #979797;
+}
+section .firstNews{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:0.28rem;
+}
+section .firstNews>img{
+    display:inline-block;
+    width:6.1rem;
+    height:4.14rem;
+}
+section .firstNews>div{
+    width:5.8rem;
+    color:#04447c;
+    font-size:0.6rem;
+}
+section .firstNews>div>p:first-child{
+    font-weight:bold;
+    text-align: justify;
+}
+section .firstNews>div>p:last-child{
+    font-size:0.32rem;
+    color:#979797;
+    text-align:right;
+}
+.firstOverview{
+    background-color:#e5e5e5;
+    font-size:0.48rem;
+    color:#979797;
+    padding: 0.2rem 0.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
+.news-list{
+
+}
+.lists{
+    position:relative;
+}
+.news-list>li{
+    box-sizing:border-box;
+    width:100%;
+    margin-bottom: 1.12rem;
+    border-bottom:1px dashed #979797;
+    padding-bottom:0.48rem;
+    color:#3d3d3d;
+    width:100%;
+}
+.news-list>li>a{
+
+}
+.news-list li>div{
+    width:100%;
+}
+.news-list li>div>h4{
+    font-size:0.6rem;
+    color:#04447c;
+    width:100%;
+    text-align: justify;
+}
+.news-list li>div>p:nth-child(2){
+    color:#979797;
+    font-size:0.32rem;
+    text-align:right;
+    padding:0.1rem 0 0.4rem;
+}
+.news-list li>div div{
+    background-color:#e5e5e5;
+    font-size:0.48rem;
+    color:#979797;
+    box-sizing:border-box;
+    padding: 0.2rem 0.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+section>button{
+    width:100%;
+    height:1.76rem;
+    border-radius:5px;
+    background-color:#1a3b6e;
+    color:#fff;
+    font-size:0.6rem;
+    border:none;
+    margin-bottom:1.2rem;
+}
+.contain{
+    position: relative;
+    /* overflow:hidden;  */
+    z-index:0;
+}
+

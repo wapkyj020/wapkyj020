@@ -1,0 +1,89 @@
+.main {
+  background: #fff;
+  box-sizing:border-box;
+  margin-top:2.5rem;
+  width:100%;
+}
+.main>img{
+    display:block;
+    width:100%;
+}
+.main>img:nth-child(2){
+    margin-bottom:0.8rem;
+}
+section{
+    padding: 0 1.46rem;
+}
+.wish{
+    border-bottom:1px solid #cbcbcb;
+    padding-bottom:0.8rem;
+    margin-bottom:12px;
+}
+.wish dt h3{
+    font-size: 0.64rem;
+    color:#04447c;
+}
+.wish dt p{
+    font-family:'alternategothic2_btregular';
+    color:#eaeaea;
+    height:14px;
+    line-height:12px;
+    margin-bottom:6px;
+    font-size:0.67rem;
+    font-weight:normal;
+}
+.wish dd{
+    font-size:0.4rem;
+    color:#a7a7a7;
+    height:19px;
+}
+section{
+
+}
+.recruit{
+    font-size:0.4rem;
+    color:#04447c;
+}
+.recruitEn{
+    font-family:'alternategothic2_btregular';
+    color:#eaeaea;
+    height:13px;
+    line-height:11px;
+    margin-bottom:12px;
+    font-size:0.6rem;
+    font-weight:normal;
+}
+.recruitment{
+    font-size:0.32rem;
+    color:#cbcbcb;
+}
+.recruitment dt h4{
+    font-size:0.4rem;
+    color:#000;
+}
+section dd ol{
+    box-sizing:border-box;
+    padding-left:0.5rem;
+    text-align: justify;
+}
+section>dl{
+    border-bottom:1px solid #cbcbcb;
+}
+.recruitment{
+    padding-left:0.3rem;
+    margin-bottom:6px;
+    padding-bottom:3px;
+    min-height: 64px;
+}
+.arrowDown{
+    height:7px;
+}
+.recruitment dt h4{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
